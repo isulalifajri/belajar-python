@@ -38,3 +38,21 @@ print("jumlah huruf a pada kalimat diatas:",kalimat.count("a")) #menghitung juml
 kalimat = "senja di langit biru"
 position = kalimat.find("langit")
 print("index ke", position)
+
+kalimat = "Baris pertama\nBaris kedua"
+print(kalimat)
+
+kalimat = "Nama:\tSuci\nUmur:27"
+print(kalimat)
+
+location = "D:\\Python\\study"
+print(location)
+
+#menggunakan f-string
+kalimat = f"Halo, {nama}, salam kenal"
+
+price = 2000
+jumlah = 3
+
+result = f"harga {jumlah} buah ini {price}"
+print(result)
