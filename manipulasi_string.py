@@ -20,3 +20,21 @@ print(nama[0:3]) #index(0, 1, 2)
 print(nama[:3]) #dari awal -> index 0 sampai index 2
 print(nama[2:]) #dari index 2 sampai akhir
 print(nama[:]) #seluruh string
+
+nama = "langit biru"
+print(nama.upper())
+print(nama.lower())
+print(nama.title())
+print(nama.capitalize())
+
+nama = " embun "
+print(nama)
+print(nama.strip())
+
+kalimat = "embun di sore hari"
+print("kalimat: ",kalimat.replace("sore", "pagi"))
+print("jumlah huruf a pada kalimat diatas:",kalimat.count("a")) #menghitung jumlah huruf a
+
+kalimat = "senja di langit biru"
+position = kalimat.find("langit")
+print("index ke", position)
