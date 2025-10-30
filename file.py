@@ -19,12 +19,17 @@
 
 print("MENAMPILKAN DATA NILAI")
 
-file = open("nilai_siswa.txt", "r")
+# file = open("nilai_siswa.txt", "r")
 
-for line in file:
-    data = line.strip().split(",")
-    print(data[0], ":", data[1])
+# for line in file:
+#     data = line.strip().split(",")
+#     print(data[0], ":", data[1])
 
-file.close()
+# file.close()
+
+with open("nilai_siswa.txt", "r") as file:
+    for line in file:
+        data = line.strip().split(",")
+        print(data[0], ":", data[1])
 
 print("SELESAI")
